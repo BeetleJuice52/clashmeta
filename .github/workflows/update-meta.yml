@@ -31,6 +31,5 @@ jobs:
           git config user.email "bot@clashmeta.gg"
           git add meta.json
           git commit -m "🤖 Auto-update meta.json [skip ci]" || echo "No changes to commit"
-          # Use the personal access token stored in the GH_PAT secret to authenticate
-          git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/BeetleJuice52/clashmeta.git
+          git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git
           git push origin HEAD:main
