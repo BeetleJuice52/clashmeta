@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ClashMeta.gg – Daily updated Clash Royale decks, strategies, shop tracker and trophy‑based meta intelligence." />
+  <title>ClashMeta.gg – Daily Decks &amp; Meta</title>
+  <style>
+    /* Base styles */
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    body.light {
+      background-color: #f7f7f9;
+      color: #1c1c1c;
+    }
+
+    body.dark {
+      background-color: #0e0e12;
+      color: #f0f0f0;
+    }
+
+    header {
+      background: #1b1b22;
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.6rem;
+      color: #ffd700;
+    }
+
+    nav a {
+      margin: 0 0.5rem;
+      text-decoration: none;
+      color: #ffd700;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 1rem auto;
+      padding: 0 1rem;
+    }
+
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    select, button {
+      padding: 0.4rem 0.8rem;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 0.9rem;
+    }
+
+    button {
+      cursor: pointer;
+      border: none;
+      background: #ffd700;
+      color: #1b1b22;
+      font-weight: 600;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1rem;
+    }
+
+    .card {
+      background: #1f1f27;
+      border-radius: 12px;
+      padding: 1rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+    }
+
+    .card h2 {
+      margin-top: 0;
+      font-size: 1.1rem;
+      color: #f39c12;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.8rem;
+      color: #888;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.2rem;
+      }
+      nav a {
+        margin: 0 0.3rem;
+      }
+      .controls {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body class="light">
+  <header>
+    <h1>ClashMeta.gg</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="strategy.html">Strategy</a>
+      <a href="deck-builder.html">Deck Builder</a>
+    </nav>
+    <button id="toggle-dark">🌙</button>
+  </header>
+
+  <div class="container">
+    <div class="controls">
+      <label for="trophyFilter"><strong>Select Trophy Range:</strong></label>
+      <select id="trophyFilter">
+        <option value="all">All</option>
+        <option value="0-2000">0–2000</option>
+        <option value="2000-4000">2000–4000</option>
+        <option value="4000-6000">4000–6000</option>
+        <option value="6000+">6000+</option>
+      </select>
+    </div>
+    <h2>Top Meta Decks</h2>
+    <div class="cards" id="deck-container"></div>
+
+    <h2>Current Shop Offers</h2>
+    <div class="cards" id="shop-container"></div>
+  </div>
+
+  <footer>
+    © 2025 ClashMeta.gg – Built by AI. Powered by smart strategy.
+  </footer>
+
+  <script>
+    // Dark mode toggle
+    const toggleDarkBtn = document.getElementById('toggle-dark');
+    toggleDarkBtn.addEventListener('click', () => {
+      const body = document.body;
+      body.classList.toggle('dark');
+      body.classList.toggle('light');
+      // Update button icon
+      if (body.classList.contains('dark')) {
+        toggleDarkBtn.textContent = '☀️';
+      } else {
+        toggleDarkBtn.textContent = '🌙';
+      }
+    });
+
+    // Fetch meta data and render deck and shop
+    let allData;
+    async function loadMeta() {
+      try {
+        const response = await fetch('meta.json');
+        const data = await response.json();
+        allData = data;
+        renderDecks();
+        renderShop();
+      } catch (err) {
+        console.error('Error loading meta.json', err);
+      }
+    }
+
+    function renderDecks() {
+      const container = document.getElementById('deck-container');
+      container.innerHTML = '';
+      const selected = document.getElementById('trophyFilter').value;
+      const decks = allData.decks.filter(deck => {
+        if (selected === 'all') return true;
+        // Parse range into numbers
+        const range = deck.range;
+        if (range.includes('–')) {
+          const [min, max] = range.split('–').map(r => parseInt(r.replace(/\D/g, '')));
+          const [selMin, selMax] = selected.split('-');
+          const sm = parseInt(selMin);
+          const sM = selMax.includes('+') ? Infinity : parseInt(selMax);
+          return (min >= sm && max <= sM) || (min <= sM && max >= sm);
+        } else if (range.includes('+')) {
+          const threshold = parseInt(range.replace(/\D/g, ''));
+          const sm = parseInt(selected.split('-')[0]);
+          return threshold >= sm;
+        }
+        return true;
+      });
+      decks.forEach(deck => {
+        const div = document.createElement('div');
+        div.className = 'card';
+        div.innerHTML = `
+          <h2>${deck.name}</h2>
+          <p><strong>Trophy Range:</strong> ${deck.range}</p>
+          <p><strong>Win Rate:</strong> ${deck.winrate}%</p>
+          <p><strong>Cards:</strong> ${deck.cards.join(', ')}</p>
+          <p><strong>Strategy:</strong> ${deck.tips}</p>
+        `;
+        container.appendChild(div);
+      });
+    }
+
+    function renderShop() {
+      const shopContainer = document.getElementById('shop-container');
+      shopContainer.innerHTML = '';
+      allData.shop.forEach(item => {
+        const div = document.createElement('div');
+        div.className = 'card';
+        div.innerHTML = `
+          <h2>📦 ${item.item}</h2>
+          <p><strong>Price:</strong> ${item.price}</p>
+          <p><strong>Expires:</strong> ${item.ends}</p>
+        `;
+        shopContainer.appendChild(div);
+      });
+    }
+
+    document.getElementById('trophyFilter').addEventListener('change', () => {
+      if (allData) renderDecks();
+    });
+
+    // Kick off loading
+    loadMeta();
+  </script>
+</body>
+</html>

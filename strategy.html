@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Clash Royale strategies tailored by trophy range. Learn how to climb the ladder with targeted tips for every level." />
+  <title>ClashMeta.gg – Strategy by Trophy Range</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background-color: #0e0e12;
+      color: #f0f0f0;
+    }
+    header {
+      background: #1b1b22;
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+      color: #ffd700;
+    }
+    nav a {
+      margin: 0 0.5rem;
+      text-decoration: none;
+      color: #ffd700;
+    }
+    nav a:hover { text-decoration: underline; }
+    .container {
+      max-width: 800px;
+      margin: 1rem auto;
+      padding: 0 1rem;
+    }
+    select {
+      padding: 0.4rem 0.8rem;
+      border-radius: 6px;
+      border: 1px solid #444;
+      margin-top: 0.5rem;
+      background: #1f1f27;
+      color: #f0f0f0;
+    }
+    .strategy-text {
+      margin-top: 1rem;
+      padding: 1rem;
+      background: #1f1f27;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.8rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Strategy Center</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="strategy.html">Strategy</a>
+      <a href="deck-builder.html">Deck Builder</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>Select your trophy range</h2>
+    <select id="rangeSelect">
+      <option value="0-2000">0–2000</option>
+      <option value="2000-4000">2000–4000</option>
+      <option value="4000-6000">4000–6000</option>
+      <option value="6000+">6000+</option>
+    </select>
+    <div class="strategy-text" id="strategyText"></div>
+  </div>
+
+  <footer>
+    © 2025 ClashMeta.gg – Master your climb.
+  </footer>
+
+  <script>
+    const strategies = {
+      '0-2000': `
+        <p><strong>Focus on fundamentals:</strong> At this stage, it's all about learning the basics. Use simple, low-cost cycle decks (such as Hog 2.6 or Giant Beatdown) that teach you to defend efficiently and punish mistakes. Practice counting elixir and knowing when to attack.</p>
+        <p><strong>Know your cards:</strong> Invest gold in a few key cards and level them evenly. Avoid spreading resources thin across many cards.</p>
+      `,
+      '2000-4000': `
+        <p><strong>Elixir management:</strong> Start tracking your opponent's counters. Learn when to trade damage for an elixir advantage. Decks like Log Bait or Bridge Spam shine in this range.</p>
+        <p><strong>Counterplay:</strong> Be prepared for popular meta decks. Learn a few responses to common win conditions (Hog Rider, Balloon, Royal Giant) and keep an answer ready.</p>
+      `,
+      '4000-6000': `
+        <p><strong>Synergy matters:</strong> Play decks with strong card synergies—Royal Giant Lightning, P.E.K.K.A Bridge Spam, or Miner Control. Practice positive elixir trades and punishing elixir-heavy plays.</p>
+        <p><strong>Adapt to changes:</strong> Stay updated with balance changes and meta shifts. Small tweaks can dramatically change which decks perform best.</p>
+      `,
+      '6000+': `
+        <p><strong>Mastery &amp; Prediction:</strong> Track opponents' cycles and card rotations to predict their moves. Use advanced techniques like pressure switching and lane switching to force misplays.</p>
+        <p><strong>Stay calm:</strong> Matches become more competitive. Keep your cool, watch replays to identify mistakes, and refine your decision-making.</p>
+      `
+    };
+
+    function updateStrategy() {
+      const range = document.getElementById('rangeSelect').value;
+      document.getElementById('strategyText').innerHTML = strategies[range];
+    }
+
+    document.getElementById('rangeSelect').addEventListener('change', updateStrategy);
+    // Initialize with default selection
+    updateStrategy();
+  </script>
+</body>
+</html>
