@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import TrophySelector from "../components/TrophySelector";
 import DeckGrid from "../components/DeckGrid";
+import Shop from "../components/Shop";
 import data from "../../meta.json";
 
 const Home = () => {
@@ -13,10 +14,11 @@ const Home = () => {
   }, [trophyRange]);
 
   return (
-    <main className="max-w-5xl mx-auto">
-      <h1 className="text-3xl font-bold p-4 text-center">ClashMeta</h1>
+    <main className="max-w-6xl mx-auto px-4">
+      <h1 className="text-4xl font-bold py-6 text-center text-white">ClashMeta</h1>
       <TrophySelector current={trophyRange} onChange={setTrophyRange} />
       <DeckGrid decks={filteredDecks} />
+      <Shop items={data.shop} />
     </main>
   );
 };
