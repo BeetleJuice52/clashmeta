@@ -1,0 +1,36 @@
+name: Auto Update meta.json Daily
+
+on:
+  schedule:
+    # Runs every day at 6 AM AEST (20:00 UTC)
+    - cron: '0 20 * * *'
+  workflow_dispatch:  # enables manual triggering
+
+jobs:
+  update-meta:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install requests openai
+
+      - name: Run meta update script
+        run: python update_meta.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "Meta Bot"
+          git config user.email "bot@clashmeta.gg"
+          git add meta.json
+          git commit -m "🤖 Auto-update meta.json [skip ci]" || echo "No changes to commit"
+          # Use the personal access token stored in the GH_PAT secret to authenticate
+          git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/BeetleJuice52/clashmeta.git
+          git push origin HEAD:main
