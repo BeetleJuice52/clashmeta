@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from "react";
 import TrophySelector from "../components/TrophySelector";
 import DeckGrid from "../components/DeckGrid";
@@ -15,6 +16,9 @@ const Home = () => {
 
   return (
     <main className="max-w-6xl mx-auto px-4">
+      <div className="bg-yellow-500 text-blue-900 p-3 text-center font-bold mb-4 rounded">
+        📣 Daily Challenge: Win 3 battles using Mega Minion!
+      </div>
       <h1 className="text-4xl font-bold py-6 text-center text-white">ClashMeta</h1>
       <TrophySelector current={trophyRange} onChange={setTrophyRange} />
       <DeckGrid decks={filteredDecks} />
