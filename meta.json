@@ -1,22 +1,22 @@
 {
   "decks": [
     {
-      "name": "Hog Cycle 2.6",
-      "range": "0\u20132000",
-      "winrate": 59.2,
+      "name": "PEKKA Bridge Spam",
+      "range": "4000\u20136000",
+      "winrate": 61.8,
       "cards": [
-        "Hog Rider",
-        "Musketeer",
-        "Cannon",
-        "Ice Spirit",
-        "Fireball"
+        "P.E.K.K.A",
+        "Bandit",
+        "Battle Ram",
+        "Electro Wizard",
+        "Minions"
       ],
-      "tips": "Use cheap cycle cards to apply constant pressure and defend efficiently. Save Musketeer and Cannon for air and tank threats."
+      "tips": "Apply dual\u2011lane pressure with Bandit and Battle Ram. Use P.E.K.K.A for heavy tank defence and counter\u2011push once your opponent overcommits."
     },
     {
       "name": "Log Bait",
       "range": "2000\u20134000",
-      "winrate": 59.6,
+      "winrate": 59.7,
       "cards": [
         "Goblin Barrel",
         "Princess",
@@ -29,7 +29,7 @@
     {
       "name": "Royal Giant Lightning",
       "range": "6000+",
-      "winrate": 63.5,
+      "winrate": 63.4,
       "cards": [
         "Royal Giant",
         "Mother Witch",
@@ -40,9 +40,22 @@
       "tips": "Control tempo with Royal Giant at the bridge. Use Fisherman to pull tanks off your tower, and punish pumps or buildings with Lightning."
     },
     {
+      "name": "Hog Cycle 2.6",
+      "range": "0\u20132000",
+      "winrate": 58.8,
+      "cards": [
+        "Hog Rider",
+        "Musketeer",
+        "Cannon",
+        "Ice Spirit",
+        "Fireball"
+      ],
+      "tips": "Use cheap cycle cards to apply constant pressure and defend efficiently. Save Musketeer and Cannon for air and tank threats."
+    },
+    {
       "name": "Miner Control",
       "range": "4000\u20136000",
-      "winrate": 60.2,
+      "winrate": 59.6,
       "cards": [
         "Miner",
         "Poison",
@@ -51,35 +64,22 @@
         "Skeletons"
       ],
       "tips": "Chip away at towers with Miner and Wall Breakers. Defend efficiently using Bomb Tower and cheap cards, then counter\u2011push when you have a positive elixir trade."
-    },
-    {
-      "name": "PEKKA Bridge Spam",
-      "range": "4000\u20136000",
-      "winrate": 62.1,
-      "cards": [
-        "P.E.K.K.A",
-        "Bandit",
-        "Battle Ram",
-        "Electro Wizard",
-        "Minions"
-      ],
-      "tips": "Apply dual\u2011lane pressure with Bandit and Battle Ram. Use P.E.K.K.A for heavy tank defence and counter\u2011push once your opponent overcommits."
     }
   ],
   "shop": [
     {
-      "item": "Rare Wild Card x20",
-      "price": "120 Gems",
+      "item": "Epic Book of Cards",
+      "price": "400 Gems",
       "ends": "12 hours left"
     },
     {
-      "item": "Epic Book of Cards",
-      "price": "400 Gems",
+      "item": "Rare Wild Card x20",
+      "price": "120 Gems",
       "ends": "8 hours left"
     },
     {
-      "item": "Magical Chest",
-      "price": "500 Gems",
+      "item": "Gold Crate",
+      "price": "300 Gems",
       "ends": "4 hours left"
     }
   ]
