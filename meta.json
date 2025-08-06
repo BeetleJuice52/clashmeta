@@ -2,48 +2,85 @@
   "decks": [
     {
       "name": "Hog Cycle 2.6",
-      "range": "0–2000",
-      "winrate": 58.9,
-      "cards": ["Hog Rider", "Musketeer", "Cannon", "Ice Spirit", "Fireball"],
+      "range": "0\u20132000",
+      "winrate": 59.2,
+      "cards": [
+        "Hog Rider",
+        "Musketeer",
+        "Cannon",
+        "Ice Spirit",
+        "Fireball"
+      ],
       "tips": "Use cheap cycle cards to apply constant pressure and defend efficiently. Save Musketeer and Cannon for air and tank threats."
     },
     {
       "name": "Log Bait",
-      "range": "2000–4000",
-      "winrate": 60.1,
-      "cards": ["Goblin Barrel", "Princess", "Rocket", "Inferno Tower", "Goblin Gang"],
+      "range": "2000\u20134000",
+      "winrate": 59.6,
+      "cards": [
+        "Goblin Barrel",
+        "Princess",
+        "Rocket",
+        "Inferno Tower",
+        "Goblin Gang"
+      ],
       "tips": "Force out your opponent's small spells with bait troops, then punish with Goblin Barrel when their log is out of cycle."
-    },
-    {
-      "name": "PEKKA Bridge Spam",
-      "range": "4000–6000",
-      "winrate": 61.7,
-      "cards": ["P.E.K.K.A", "Bandit", "Battle Ram", "Electro Wizard", "Minions"],
-      "tips": "Apply dual‑lane pressure with Bandit and Battle Ram. Use P.E.K.K.A for heavy tank defence and counter‑push once your opponent overcommits."
     },
     {
       "name": "Royal Giant Lightning",
       "range": "6000+",
-      "winrate": 63.3,
-      "cards": ["Royal Giant", "Mother Witch", "Lightning", "Fisherman", "Phoenix"],
+      "winrate": 63.5,
+      "cards": [
+        "Royal Giant",
+        "Mother Witch",
+        "Lightning",
+        "Fisherman",
+        "Phoenix"
+      ],
       "tips": "Control tempo with Royal Giant at the bridge. Use Fisherman to pull tanks off your tower, and punish pumps or buildings with Lightning."
+    },
+    {
+      "name": "Miner Control",
+      "range": "4000\u20136000",
+      "winrate": 60.2,
+      "cards": [
+        "Miner",
+        "Poison",
+        "Bomb Tower",
+        "Wall Breakers",
+        "Skeletons"
+      ],
+      "tips": "Chip away at towers with Miner and Wall Breakers. Defend efficiently using Bomb Tower and cheap cards, then counter\u2011push when you have a positive elixir trade."
+    },
+    {
+      "name": "PEKKA Bridge Spam",
+      "range": "4000\u20136000",
+      "winrate": 62.1,
+      "cards": [
+        "P.E.K.K.A",
+        "Bandit",
+        "Battle Ram",
+        "Electro Wizard",
+        "Minions"
+      ],
+      "tips": "Apply dual\u2011lane pressure with Bandit and Battle Ram. Use P.E.K.K.A for heavy tank defence and counter\u2011push once your opponent overcommits."
     }
   ],
   "shop": [
-    {
-      "item": "Magical Chest",
-      "price": "500 Gems",
-      "ends": "Midnight AEST"
-    },
     {
       "item": "Rare Wild Card x20",
       "price": "120 Gems",
       "ends": "12 hours left"
     },
     {
-      "item": "Champion Token",
-      "price": "250 Gems",
-      "ends": "6 hours left"
+      "item": "Epic Book of Cards",
+      "price": "400 Gems",
+      "ends": "8 hours left"
+    },
+    {
+      "item": "Magical Chest",
+      "price": "500 Gems",
+      "ends": "4 hours left"
     }
   ]
 }
