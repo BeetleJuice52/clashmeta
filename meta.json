@@ -3,7 +3,7 @@
     {
       "name": "PEKKA Bridge Spam",
       "range": "4000\u20136000",
-      "winrate": 62.0,
+      "winrate": 61.5,
       "cards": [
         "P.E.K.K.A",
         "Bandit",
@@ -14,22 +14,9 @@
       "tips": "Apply dual\u2011lane pressure with Bandit and Battle Ram. Use P.E.K.K.A for heavy tank defence and counter\u2011push once your opponent overcommits."
     },
     {
-      "name": "Miner Control",
-      "range": "4000\u20136000",
-      "winrate": 59.7,
-      "cards": [
-        "Miner",
-        "Poison",
-        "Bomb Tower",
-        "Wall Breakers",
-        "Skeletons"
-      ],
-      "tips": "Chip away at towers with Miner and Wall Breakers. Defend efficiently using Bomb Tower and cheap cards, then counter\u2011push when you have a positive elixir trade."
-    },
-    {
       "name": "Royal Giant Lightning",
       "range": "6000+",
-      "winrate": 63.2,
+      "winrate": 63.3,
       "cards": [
         "Royal Giant",
         "Mother Witch",
@@ -42,7 +29,7 @@
     {
       "name": "Log Bait",
       "range": "2000\u20134000",
-      "winrate": 60.6,
+      "winrate": 59.7,
       "cards": [
         "Goblin Barrel",
         "Princess",
@@ -53,9 +40,22 @@
       "tips": "Force out your opponent's small spells with bait troops, then punish with Goblin Barrel when their log is out of cycle."
     },
     {
+      "name": "Miner Control",
+      "range": "4000\u20136000",
+      "winrate": 60.1,
+      "cards": [
+        "Miner",
+        "Poison",
+        "Bomb Tower",
+        "Wall Breakers",
+        "Skeletons"
+      ],
+      "tips": "Chip away at towers with Miner and Wall Breakers. Defend efficiently using Bomb Tower and cheap cards, then counter\u2011push when you have a positive elixir trade."
+    },
+    {
       "name": "Hog Cycle 2.6",
       "range": "0\u20132000",
-      "winrate": 58.6,
+      "winrate": 58.4,
       "cards": [
         "Hog Rider",
         "Musketeer",
@@ -68,8 +68,8 @@
   ],
   "shop": [
     {
-      "item": "Epic Book of Cards",
-      "price": "400 Gems",
+      "item": "Gold Crate",
+      "price": "300 Gems",
       "ends": "12 hours left"
     },
     {
@@ -78,8 +78,8 @@
       "ends": "8 hours left"
     },
     {
-      "item": "Magical Chest",
-      "price": "500 Gems",
+      "item": "Epic Book of Cards",
+      "price": "400 Gems",
       "ends": "4 hours left"
     }
   ]
