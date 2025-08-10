@@ -1,9 +1,22 @@
 {
   "decks": [
     {
+      "name": "Hog Cycle 2.6",
+      "range": "0\u20132000",
+      "winrate": 58.8,
+      "cards": [
+        "Hog Rider",
+        "Musketeer",
+        "Cannon",
+        "Ice Spirit",
+        "Fireball"
+      ],
+      "tips": "Use cheap cycle cards to apply constant pressure and defend efficiently. Save Musketeer and Cannon for air and tank threats."
+    },
+    {
       "name": "PEKKA Bridge Spam",
       "range": "4000\u20136000",
-      "winrate": 61.5,
+      "winrate": 61.3,
       "cards": [
         "P.E.K.K.A",
         "Bandit",
@@ -16,7 +29,7 @@
     {
       "name": "Royal Giant Lightning",
       "range": "6000+",
-      "winrate": 63.3,
+      "winrate": 63.0,
       "cards": [
         "Royal Giant",
         "Mother Witch",
@@ -27,22 +40,9 @@
       "tips": "Control tempo with Royal Giant at the bridge. Use Fisherman to pull tanks off your tower, and punish pumps or buildings with Lightning."
     },
     {
-      "name": "Log Bait",
-      "range": "2000\u20134000",
-      "winrate": 59.7,
-      "cards": [
-        "Goblin Barrel",
-        "Princess",
-        "Rocket",
-        "Inferno Tower",
-        "Goblin Gang"
-      ],
-      "tips": "Force out your opponent's small spells with bait troops, then punish with Goblin Barrel when their log is out of cycle."
-    },
-    {
       "name": "Miner Control",
       "range": "4000\u20136000",
-      "winrate": 60.1,
+      "winrate": 59.8,
       "cards": [
         "Miner",
         "Poison",
@@ -53,33 +53,33 @@
       "tips": "Chip away at towers with Miner and Wall Breakers. Defend efficiently using Bomb Tower and cheap cards, then counter\u2011push when you have a positive elixir trade."
     },
     {
-      "name": "Hog Cycle 2.6",
-      "range": "0\u20132000",
-      "winrate": 58.4,
+      "name": "Log Bait",
+      "range": "2000\u20134000",
+      "winrate": 59.6,
       "cards": [
-        "Hog Rider",
-        "Musketeer",
-        "Cannon",
-        "Ice Spirit",
-        "Fireball"
+        "Goblin Barrel",
+        "Princess",
+        "Rocket",
+        "Inferno Tower",
+        "Goblin Gang"
       ],
-      "tips": "Use cheap cycle cards to apply constant pressure and defend efficiently. Save Musketeer and Cannon for air and tank threats."
+      "tips": "Force out your opponent's small spells with bait troops, then punish with Goblin Barrel when their log is out of cycle."
     }
   ],
   "shop": [
     {
-      "item": "Gold Crate",
-      "price": "300 Gems",
+      "item": "Magical Chest",
+      "price": "500 Gems",
       "ends": "12 hours left"
     },
     {
-      "item": "Rare Wild Card x20",
-      "price": "120 Gems",
+      "item": "Champion Token",
+      "price": "250 Gems",
       "ends": "8 hours left"
     },
     {
-      "item": "Epic Book of Cards",
-      "price": "400 Gems",
+      "item": "Gold Crate",
+      "price": "300 Gems",
       "ends": "4 hours left"
     }
   ]
