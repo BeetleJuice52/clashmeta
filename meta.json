@@ -16,7 +16,7 @@
     {
       "name": "PEKKA Bridge Spam",
       "range": "4000\u20136000",
-      "winrate": 61.3,
+      "winrate": 61.5,
       "cards": [
         "P.E.K.K.A",
         "Bandit",
@@ -27,22 +27,22 @@
       "tips": "Apply dual\u2011lane pressure with Bandit and Battle Ram. Use P.E.K.K.A for heavy tank defence and counter\u2011push once your opponent overcommits."
     },
     {
-      "name": "Royal Giant Lightning",
-      "range": "6000+",
-      "winrate": 63.0,
+      "name": "Log Bait",
+      "range": "2000\u20134000",
+      "winrate": 60.2,
       "cards": [
-        "Royal Giant",
-        "Mother Witch",
-        "Lightning",
-        "Fisherman",
-        "Phoenix"
+        "Goblin Barrel",
+        "Princess",
+        "Rocket",
+        "Inferno Tower",
+        "Goblin Gang"
       ],
-      "tips": "Control tempo with Royal Giant at the bridge. Use Fisherman to pull tanks off your tower, and punish pumps or buildings with Lightning."
+      "tips": "Force out your opponent's small spells with bait troops, then punish with Goblin Barrel when their log is out of cycle."
     },
     {
       "name": "Miner Control",
       "range": "4000\u20136000",
-      "winrate": 59.8,
+      "winrate": 60.2,
       "cards": [
         "Miner",
         "Poison",
@@ -53,17 +53,17 @@
       "tips": "Chip away at towers with Miner and Wall Breakers. Defend efficiently using Bomb Tower and cheap cards, then counter\u2011push when you have a positive elixir trade."
     },
     {
-      "name": "Log Bait",
-      "range": "2000\u20134000",
-      "winrate": 59.6,
+      "name": "Royal Giant Lightning",
+      "range": "6000+",
+      "winrate": 63.1,
       "cards": [
-        "Goblin Barrel",
-        "Princess",
-        "Rocket",
-        "Inferno Tower",
-        "Goblin Gang"
+        "Royal Giant",
+        "Mother Witch",
+        "Lightning",
+        "Fisherman",
+        "Phoenix"
       ],
-      "tips": "Force out your opponent's small spells with bait troops, then punish with Goblin Barrel when their log is out of cycle."
+      "tips": "Control tempo with Royal Giant at the bridge. Use Fisherman to pull tanks off your tower, and punish pumps or buildings with Lightning."
     }
   ],
   "shop": [
@@ -73,13 +73,13 @@
       "ends": "12 hours left"
     },
     {
-      "item": "Champion Token",
-      "price": "250 Gems",
+      "item": "Rare Wild Card x20",
+      "price": "120 Gems",
       "ends": "8 hours left"
     },
     {
-      "item": "Gold Crate",
-      "price": "300 Gems",
+      "item": "Epic Book of Cards",
+      "price": "400 Gems",
       "ends": "4 hours left"
     }
   ]
