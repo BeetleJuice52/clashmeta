@@ -1,48 +1,9 @@
 {
   "decks": [
     {
-      "name": "Royal Giant Lightning",
-      "range": "6000+",
-      "winrate": 63.6,
-      "cards": [
-        "Royal Giant",
-        "Mother Witch",
-        "Lightning",
-        "Fisherman",
-        "Phoenix"
-      ],
-      "tips": "Control tempo with Royal Giant at the bridge. Use Fisherman to pull tanks off your tower, and punish pumps or buildings with Lightning."
-    },
-    {
-      "name": "Miner Control",
-      "range": "4000\u20136000",
-      "winrate": 59.8,
-      "cards": [
-        "Miner",
-        "Poison",
-        "Bomb Tower",
-        "Wall Breakers",
-        "Skeletons"
-      ],
-      "tips": "Chip away at towers with Miner and Wall Breakers. Defend efficiently using Bomb Tower and cheap cards, then counter\u2011push when you have a positive elixir trade."
-    },
-    {
-      "name": "Hog Cycle 2.6",
-      "range": "0\u20132000",
-      "winrate": 58.6,
-      "cards": [
-        "Hog Rider",
-        "Musketeer",
-        "Cannon",
-        "Ice Spirit",
-        "Fireball"
-      ],
-      "tips": "Use cheap cycle cards to apply constant pressure and defend efficiently. Save Musketeer and Cannon for air and tank threats."
-    },
-    {
       "name": "PEKKA Bridge Spam",
       "range": "4000\u20136000",
-      "winrate": 61.2,
+      "winrate": 62.1,
       "cards": [
         "P.E.K.K.A",
         "Bandit",
@@ -53,9 +14,48 @@
       "tips": "Apply dual\u2011lane pressure with Bandit and Battle Ram. Use P.E.K.K.A for heavy tank defence and counter\u2011push once your opponent overcommits."
     },
     {
+      "name": "Hog Cycle 2.6",
+      "range": "0\u20132000",
+      "winrate": 58.7,
+      "cards": [
+        "Hog Rider",
+        "Musketeer",
+        "Cannon",
+        "Ice Spirit",
+        "Fireball"
+      ],
+      "tips": "Use cheap cycle cards to apply constant pressure and defend efficiently. Save Musketeer and Cannon for air and tank threats."
+    },
+    {
+      "name": "Miner Control",
+      "range": "4000\u20136000",
+      "winrate": 59.9,
+      "cards": [
+        "Miner",
+        "Poison",
+        "Bomb Tower",
+        "Wall Breakers",
+        "Skeletons"
+      ],
+      "tips": "Chip away at towers with Miner and Wall Breakers. Defend efficiently using Bomb Tower and cheap cards, then counter\u2011push when you have a positive elixir trade."
+    },
+    {
+      "name": "Royal Giant Lightning",
+      "range": "6000+",
+      "winrate": 63.0,
+      "cards": [
+        "Royal Giant",
+        "Mother Witch",
+        "Lightning",
+        "Fisherman",
+        "Phoenix"
+      ],
+      "tips": "Control tempo with Royal Giant at the bridge. Use Fisherman to pull tanks off your tower, and punish pumps or buildings with Lightning."
+    },
+    {
       "name": "Log Bait",
       "range": "2000\u20134000",
-      "winrate": 60.2,
+      "winrate": 60.4,
       "cards": [
         "Goblin Barrel",
         "Princess",
@@ -73,8 +73,8 @@
       "ends": "12 hours left"
     },
     {
-      "item": "Champion Token",
-      "price": "250 Gems",
+      "item": "Magical Chest",
+      "price": "500 Gems",
       "ends": "8 hours left"
     },
     {
