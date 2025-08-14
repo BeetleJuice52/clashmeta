@@ -3,7 +3,7 @@
     {
       "name": "PEKKA Bridge Spam",
       "range": "4000\u20136000",
-      "winrate": 62.1,
+      "winrate": 61.9,
       "cards": [
         "P.E.K.K.A",
         "Bandit",
@@ -14,22 +14,9 @@
       "tips": "Apply dual\u2011lane pressure with Bandit and Battle Ram. Use P.E.K.K.A for heavy tank defence and counter\u2011push once your opponent overcommits."
     },
     {
-      "name": "Hog Cycle 2.6",
-      "range": "0\u20132000",
-      "winrate": 58.7,
-      "cards": [
-        "Hog Rider",
-        "Musketeer",
-        "Cannon",
-        "Ice Spirit",
-        "Fireball"
-      ],
-      "tips": "Use cheap cycle cards to apply constant pressure and defend efficiently. Save Musketeer and Cannon for air and tank threats."
-    },
-    {
       "name": "Miner Control",
       "range": "4000\u20136000",
-      "winrate": 59.9,
+      "winrate": 59.7,
       "cards": [
         "Miner",
         "Poison",
@@ -42,7 +29,7 @@
     {
       "name": "Royal Giant Lightning",
       "range": "6000+",
-      "winrate": 63.0,
+      "winrate": 62.9,
       "cards": [
         "Royal Giant",
         "Mother Witch",
@@ -55,7 +42,7 @@
     {
       "name": "Log Bait",
       "range": "2000\u20134000",
-      "winrate": 60.4,
+      "winrate": 60.3,
       "cards": [
         "Goblin Barrel",
         "Princess",
@@ -64,22 +51,35 @@
         "Goblin Gang"
       ],
       "tips": "Force out your opponent's small spells with bait troops, then punish with Goblin Barrel when their log is out of cycle."
+    },
+    {
+      "name": "Hog Cycle 2.6",
+      "range": "0\u20132000",
+      "winrate": 58.4,
+      "cards": [
+        "Hog Rider",
+        "Musketeer",
+        "Cannon",
+        "Ice Spirit",
+        "Fireball"
+      ],
+      "tips": "Use cheap cycle cards to apply constant pressure and defend efficiently. Save Musketeer and Cannon for air and tank threats."
     }
   ],
   "shop": [
     {
-      "item": "Epic Book of Cards",
-      "price": "400 Gems",
+      "item": "Rare Wild Card x20",
+      "price": "120 Gems",
       "ends": "12 hours left"
+    },
+    {
+      "item": "Champion Token",
+      "price": "250 Gems",
+      "ends": "8 hours left"
     },
     {
       "item": "Magical Chest",
       "price": "500 Gems",
-      "ends": "8 hours left"
-    },
-    {
-      "item": "Gold Crate",
-      "price": "300 Gems",
       "ends": "4 hours left"
     }
   ]
