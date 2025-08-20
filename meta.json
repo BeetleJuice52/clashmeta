@@ -1,9 +1,22 @@
 {
   "decks": [
     {
+      "name": "Miner Control",
+      "range": "4000\u20136000",
+      "winrate": 59.4,
+      "cards": [
+        "Miner",
+        "Poison",
+        "Bomb Tower",
+        "Wall Breakers",
+        "Skeletons"
+      ],
+      "tips": "Chip away at towers with Miner and Wall Breakers. Defend efficiently using Bomb Tower and cheap cards, then counter\u2011push when you have a positive elixir trade."
+    },
+    {
       "name": "Log Bait",
       "range": "2000\u20134000",
-      "winrate": 60.4,
+      "winrate": 60.0,
       "cards": [
         "Goblin Barrel",
         "Princess",
@@ -16,7 +29,7 @@
     {
       "name": "Royal Giant Lightning",
       "range": "6000+",
-      "winrate": 63.4,
+      "winrate": 63.2,
       "cards": [
         "Royal Giant",
         "Mother Witch",
@@ -27,22 +40,9 @@
       "tips": "Control tempo with Royal Giant at the bridge. Use Fisherman to pull tanks off your tower, and punish pumps or buildings with Lightning."
     },
     {
-      "name": "Hog Cycle 2.6",
-      "range": "0\u20132000",
-      "winrate": 58.9,
-      "cards": [
-        "Hog Rider",
-        "Musketeer",
-        "Cannon",
-        "Ice Spirit",
-        "Fireball"
-      ],
-      "tips": "Use cheap cycle cards to apply constant pressure and defend efficiently. Save Musketeer and Cannon for air and tank threats."
-    },
-    {
       "name": "PEKKA Bridge Spam",
       "range": "4000\u20136000",
-      "winrate": 61.5,
+      "winrate": 62.1,
       "cards": [
         "P.E.K.K.A",
         "Bandit",
@@ -53,28 +53,28 @@
       "tips": "Apply dual\u2011lane pressure with Bandit and Battle Ram. Use P.E.K.K.A for heavy tank defence and counter\u2011push once your opponent overcommits."
     },
     {
-      "name": "Miner Control",
-      "range": "4000\u20136000",
-      "winrate": 59.8,
+      "name": "Hog Cycle 2.6",
+      "range": "0\u20132000",
+      "winrate": 59.0,
       "cards": [
-        "Miner",
-        "Poison",
-        "Bomb Tower",
-        "Wall Breakers",
-        "Skeletons"
+        "Hog Rider",
+        "Musketeer",
+        "Cannon",
+        "Ice Spirit",
+        "Fireball"
       ],
-      "tips": "Chip away at towers with Miner and Wall Breakers. Defend efficiently using Bomb Tower and cheap cards, then counter\u2011push when you have a positive elixir trade."
+      "tips": "Use cheap cycle cards to apply constant pressure and defend efficiently. Save Musketeer and Cannon for air and tank threats."
     }
   ],
   "shop": [
     {
-      "item": "Champion Token",
-      "price": "250 Gems",
+      "item": "Gold Crate",
+      "price": "300 Gems",
       "ends": "12 hours left"
     },
     {
-      "item": "Gold Crate",
-      "price": "300 Gems",
+      "item": "Rare Wild Card x20",
+      "price": "120 Gems",
       "ends": "8 hours left"
     },
     {
