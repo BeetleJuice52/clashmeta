@@ -1,22 +1,9 @@
 {
   "decks": [
     {
-      "name": "Miner Control",
-      "range": "4000\u20136000",
-      "winrate": 59.8,
-      "cards": [
-        "Miner",
-        "Poison",
-        "Bomb Tower",
-        "Wall Breakers",
-        "Skeletons"
-      ],
-      "tips": "Chip away at towers with Miner and Wall Breakers. Defend efficiently using Bomb Tower and cheap cards, then counter\u2011push when you have a positive elixir trade."
-    },
-    {
       "name": "Royal Giant Lightning",
       "range": "6000+",
-      "winrate": 63.5,
+      "winrate": 63.1,
       "cards": [
         "Royal Giant",
         "Mother Witch",
@@ -29,7 +16,7 @@
     {
       "name": "PEKKA Bridge Spam",
       "range": "4000\u20136000",
-      "winrate": 61.3,
+      "winrate": 61.4,
       "cards": [
         "P.E.K.K.A",
         "Bandit",
@@ -40,9 +27,22 @@
       "tips": "Apply dual\u2011lane pressure with Bandit and Battle Ram. Use P.E.K.K.A for heavy tank defence and counter\u2011push once your opponent overcommits."
     },
     {
+      "name": "Miner Control",
+      "range": "4000\u20136000",
+      "winrate": 60.1,
+      "cards": [
+        "Miner",
+        "Poison",
+        "Bomb Tower",
+        "Wall Breakers",
+        "Skeletons"
+      ],
+      "tips": "Chip away at towers with Miner and Wall Breakers. Defend efficiently using Bomb Tower and cheap cards, then counter\u2011push when you have a positive elixir trade."
+    },
+    {
       "name": "Log Bait",
       "range": "2000\u20134000",
-      "winrate": 59.7,
+      "winrate": 59.9,
       "cards": [
         "Goblin Barrel",
         "Princess",
@@ -55,7 +55,7 @@
     {
       "name": "Hog Cycle 2.6",
       "range": "0\u20132000",
-      "winrate": 58.6,
+      "winrate": 59.0,
       "cards": [
         "Hog Rider",
         "Musketeer",
@@ -68,18 +68,18 @@
   ],
   "shop": [
     {
-      "item": "Rare Wild Card x20",
-      "price": "120 Gems",
+      "item": "Gold Crate",
+      "price": "300 Gems",
       "ends": "12 hours left"
-    },
-    {
-      "item": "Champion Token",
-      "price": "250 Gems",
-      "ends": "8 hours left"
     },
     {
       "item": "Epic Book of Cards",
       "price": "400 Gems",
+      "ends": "8 hours left"
+    },
+    {
+      "item": "Magical Chest",
+      "price": "500 Gems",
       "ends": "4 hours left"
     }
   ]
