@@ -1,30 +1,17 @@
 {
   "decks": [
     {
-      "name": "Royal Giant Lightning",
-      "range": "6000+",
-      "winrate": 63.1,
+      "name": "Hog Cycle 2.6",
+      "range": "0\u20132000",
+      "winrate": 59.1,
       "cards": [
-        "Royal Giant",
-        "Mother Witch",
-        "Lightning",
-        "Fisherman",
-        "Phoenix"
+        "Hog Rider",
+        "Musketeer",
+        "Cannon",
+        "Ice Spirit",
+        "Fireball"
       ],
-      "tips": "Control tempo with Royal Giant at the bridge. Use Fisherman to pull tanks off your tower, and punish pumps or buildings with Lightning."
-    },
-    {
-      "name": "PEKKA Bridge Spam",
-      "range": "4000\u20136000",
-      "winrate": 61.4,
-      "cards": [
-        "P.E.K.K.A",
-        "Bandit",
-        "Battle Ram",
-        "Electro Wizard",
-        "Minions"
-      ],
-      "tips": "Apply dual\u2011lane pressure with Bandit and Battle Ram. Use P.E.K.K.A for heavy tank defence and counter\u2011push once your opponent overcommits."
+      "tips": "Use cheap cycle cards to apply constant pressure and defend efficiently. Save Musketeer and Cannon for air and tank threats."
     },
     {
       "name": "Miner Control",
@@ -40,6 +27,32 @@
       "tips": "Chip away at towers with Miner and Wall Breakers. Defend efficiently using Bomb Tower and cheap cards, then counter\u2011push when you have a positive elixir trade."
     },
     {
+      "name": "PEKKA Bridge Spam",
+      "range": "4000\u20136000",
+      "winrate": 62.2,
+      "cards": [
+        "P.E.K.K.A",
+        "Bandit",
+        "Battle Ram",
+        "Electro Wizard",
+        "Minions"
+      ],
+      "tips": "Apply dual\u2011lane pressure with Bandit and Battle Ram. Use P.E.K.K.A for heavy tank defence and counter\u2011push once your opponent overcommits."
+    },
+    {
+      "name": "Royal Giant Lightning",
+      "range": "6000+",
+      "winrate": 63.7,
+      "cards": [
+        "Royal Giant",
+        "Mother Witch",
+        "Lightning",
+        "Fisherman",
+        "Phoenix"
+      ],
+      "tips": "Control tempo with Royal Giant at the bridge. Use Fisherman to pull tanks off your tower, and punish pumps or buildings with Lightning."
+    },
+    {
       "name": "Log Bait",
       "range": "2000\u20134000",
       "winrate": 59.9,
@@ -51,19 +64,6 @@
         "Goblin Gang"
       ],
       "tips": "Force out your opponent's small spells with bait troops, then punish with Goblin Barrel when their log is out of cycle."
-    },
-    {
-      "name": "Hog Cycle 2.6",
-      "range": "0\u20132000",
-      "winrate": 59.0,
-      "cards": [
-        "Hog Rider",
-        "Musketeer",
-        "Cannon",
-        "Ice Spirit",
-        "Fireball"
-      ],
-      "tips": "Use cheap cycle cards to apply constant pressure and defend efficiently. Save Musketeer and Cannon for air and tank threats."
     }
   ],
   "shop": [
@@ -78,8 +78,8 @@
       "ends": "8 hours left"
     },
     {
-      "item": "Magical Chest",
-      "price": "500 Gems",
+      "item": "Rare Wild Card x20",
+      "price": "120 Gems",
       "ends": "4 hours left"
     }
   ]
