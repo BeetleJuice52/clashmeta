@@ -1,9 +1,35 @@
 {
   "decks": [
     {
+      "name": "Royal Giant Lightning",
+      "range": "6000+",
+      "winrate": 63.2,
+      "cards": [
+        "Royal Giant",
+        "Mother Witch",
+        "Lightning",
+        "Fisherman",
+        "Phoenix"
+      ],
+      "tips": "Control tempo with Royal Giant at the bridge. Use Fisherman to pull tanks off your tower, and punish pumps or buildings with Lightning."
+    },
+    {
+      "name": "PEKKA Bridge Spam",
+      "range": "4000\u20136000",
+      "winrate": 62.0,
+      "cards": [
+        "P.E.K.K.A",
+        "Bandit",
+        "Battle Ram",
+        "Electro Wizard",
+        "Minions"
+      ],
+      "tips": "Apply dual\u2011lane pressure with Bandit and Battle Ram. Use P.E.K.K.A for heavy tank defence and counter\u2011push once your opponent overcommits."
+    },
+    {
       "name": "Hog Cycle 2.6",
       "range": "0\u20132000",
-      "winrate": 59.1,
+      "winrate": 58.7,
       "cards": [
         "Hog Rider",
         "Musketeer",
@@ -16,7 +42,7 @@
     {
       "name": "Miner Control",
       "range": "4000\u20136000",
-      "winrate": 60.1,
+      "winrate": 59.8,
       "cards": [
         "Miner",
         "Poison",
@@ -27,35 +53,9 @@
       "tips": "Chip away at towers with Miner and Wall Breakers. Defend efficiently using Bomb Tower and cheap cards, then counter\u2011push when you have a positive elixir trade."
     },
     {
-      "name": "PEKKA Bridge Spam",
-      "range": "4000\u20136000",
-      "winrate": 62.2,
-      "cards": [
-        "P.E.K.K.A",
-        "Bandit",
-        "Battle Ram",
-        "Electro Wizard",
-        "Minions"
-      ],
-      "tips": "Apply dual\u2011lane pressure with Bandit and Battle Ram. Use P.E.K.K.A for heavy tank defence and counter\u2011push once your opponent overcommits."
-    },
-    {
-      "name": "Royal Giant Lightning",
-      "range": "6000+",
-      "winrate": 63.7,
-      "cards": [
-        "Royal Giant",
-        "Mother Witch",
-        "Lightning",
-        "Fisherman",
-        "Phoenix"
-      ],
-      "tips": "Control tempo with Royal Giant at the bridge. Use Fisherman to pull tanks off your tower, and punish pumps or buildings with Lightning."
-    },
-    {
       "name": "Log Bait",
       "range": "2000\u20134000",
-      "winrate": 59.9,
+      "winrate": 60.4,
       "cards": [
         "Goblin Barrel",
         "Princess",
@@ -68,18 +68,18 @@
   ],
   "shop": [
     {
-      "item": "Gold Crate",
-      "price": "300 Gems",
+      "item": "Magical Chest",
+      "price": "500 Gems",
       "ends": "12 hours left"
     },
     {
-      "item": "Epic Book of Cards",
-      "price": "400 Gems",
+      "item": "Champion Token",
+      "price": "250 Gems",
       "ends": "8 hours left"
     },
     {
-      "item": "Rare Wild Card x20",
-      "price": "120 Gems",
+      "item": "Gold Crate",
+      "price": "300 Gems",
       "ends": "4 hours left"
     }
   ]
